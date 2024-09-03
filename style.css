@@ -1,0 +1,66 @@
+body{
+    font-family: monospace;
+
+    background-color: rgb(114, 112, 112);
+}
+.container{
+    color: rgb(58, 57, 57);
+    
+    background-color: #fff;
+    border: 6px solid black;
+    border-radius: 1.3rem;
+    max-width: 500px;
+    text-align: center;
+   margin: auto;
+   padding: 20px;
+   margin-top: 50px;
+}
+h1{
+font-size: 2.6rem;
+font-weight: 900;
+}
+
+.display{
+    font-size:3rem ;
+    font-weight: 900;
+}
+.controls{
+    margin-top: 30px;
+}
+
+.btn{
+    font-family: monospace;
+    font-size: 1.6rem;
+    border-radius: 01.1rem;
+    padding: 10px;
+    font-weight: 900;
+    color: rgb(58, 57, 57);
+    color: white;
+}
+
+.startbtn{
+    background-color: rgb(79, 209, 79);
+
+}
+
+.stopbtn{
+    background-color: red;
+}
+.resetbtn{
+    background-color: rgb(108, 203, 241);
+}
+
+@media (max-width:416px) {
+    h1{
+        font-size: 1.7rem;
+    }
+    .display{
+        font-size:2.4rem ;
+    }
+
+    .btn{
+        font-size: 1.2rem;
+    }
+    
+    
+}
